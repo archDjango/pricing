@@ -1,0 +1,103 @@
+.full-screen { 
+    min-height: 100vh; 
+    padding: 20px; 
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .app-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #b20710; /* HBO Red */
+    margin-bottom: 20px;
+  }
+  
+  .toggle-btn { 
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+    background: #b20710;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .toggle-btn:hover {
+    background: #8c060d;
+  }
+  
+  .pricing-table { 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 40px; 
+  }
+  
+  .pricing-card { 
+    padding: 20px; 
+    border-radius: 8px; 
+    text-align: center; 
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    transition: transform 0.3s;
+  }
+  
+  .pricing-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pricing-card h3 {
+    color: #b20710;
+  }
+  
+  .pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pricing-card ul li {
+    padding: 5px 0;
+  }
+  
+  .pricing-card button {
+    background: #b20710;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pricing-card button:hover {
+    background: #8c060d;
+  }
+  
+  .faq-section { 
+    margin-top: 40px; 
+  }
+  
+  .faq-item { 
+    cursor: pointer; 
+    padding: 10px; 
+    border-bottom: 1px solid #ddd; 
+    transition: background 0.3s;
+    color: brown;
+  }
+  
+  .faq-item:hover {
+    background: #f0f0f0;
+  }
+  
+  .dark-theme { 
+    background-color: #222; 
+    color: black; 
+  }
+  
+  .light-theme { 
+    background-color: #fff; 
+    color: #000; 
+  }
+  
